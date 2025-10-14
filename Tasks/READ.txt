@@ -1,2 +1,27 @@
-All Weekly Assign Tasks here
+Week 1 DevOps Internship Tasks
 
+During Week 1 of my DevOps internship, I focused on mastering the essential foundational skills required for working efficiently in a Linux-based DevOps environment.
+
+1. Linux Command Line Basics – File System Navigation
+
+I learned how to navigate the Linux file system using commands such as pwd, ls, cd, mkdir, rmdir, and touch. These commands help in moving between directories, creating and removing files or folders, and checking the current working directory. Understanding the Linux directory structure (/home, /etc, /var, /usr, etc.) improved my ability to work confidently in the terminal — a key requirement for DevOps engineers.
+
+2. Linux File Permissions
+
+I explored how Linux controls file and directory access using permission bits (read, write, execute) for user, group, and others. I practiced viewing permissions with ls -l and modifying them using chmod, chown, and chgrp. I also learned about numeric (e.g., chmod 755 file.txt) and symbolic (e.g., chmod u+x file.sh) permission formats. This knowledge is crucial for securing scripts, configuration files, and deployment directories.
+
+3. Process Management
+
+I practiced managing processes using commands such as ps, top, kill, jobs, fg, and bg. I learned how to monitor CPU and memory usage in real time with top and htop, and how to terminate or reprioritize processes using kill, nice, and renice. Understanding process hierarchy with pstree helped me see parent–child relationships between system and user processes. These skills are vital for maintaining system stability and handling long-running services on servers.
+
+4. Shell Scripting and Automation
+
+I learned to automate repetitive tasks using Bash scripting. I wrote scripts using conditionals (if, else), loops (for, while), and variables to perform automated backups, file monitoring, and log management. I also used chmod +x to make scripts executable and scheduled them using cron jobs (crontab -e) to run periodically. This introduced me to the concept of task automation — a core part of CI/CD pipelines and DevOps operations.
+
+5. Git Fundamentals and Collaboration
+
+I gained hands-on experience with version control using Git and GitHub. I practiced initializing repositories (git init), staging and committing changes (git add, git commit), and pushing code to GitHub (git push origin main). I learned about branching strategies (feature, develop, main) to manage parallel work efficiently, merging changes (git merge), and resolving conflicts. I also explored collaborative workflows like feature branching, pull requests, and code reviews, which are crucial for team-based development and CI/CD integration.
+
+Overall Learning Reflection
+
+By the end of Week 1, I built a strong foundation in Linux commands, permissions, process management, automation with shell scripting, and version control with Git. These skills collectively form the backbone of modern DevOps practices — enabling efficient system administration, automation, and collaborative development across teams.
