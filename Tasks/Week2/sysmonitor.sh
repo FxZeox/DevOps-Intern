@@ -1,5 +1,4 @@
 #!/bin/bash
-# Simple system monitoring script
 
 LOGFILE="/home/usman/Desktop/DevOps-Intern/Tasks/Week2/simple_system_monitor.log"
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
@@ -8,6 +7,7 @@ mkdir -p "$(dirname "$LOGFILE")"
 
 {
   echo "System Report: $DATE"
+  echo
   
   echo "CPU Load:"
   uptime | awk -F'load average:' '{ print $2 }'
@@ -19,6 +19,7 @@ mkdir -p "$(dirname "$LOGFILE")"
 
   echo "Disk Usage:"
   df -h --total | grep total
+  echo
 
   echo "System Uptime:"
   uptime -p

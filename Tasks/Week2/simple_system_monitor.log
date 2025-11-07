@@ -1,22 +1,23 @@
-System Report: 2025-11-07 10:38:08
+System Report: 2025-11-07 14:36:46
 CPU Load:
- 0.31, 0.14, 0.07
+ 0.16, 0.25, 0.22
 
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       2.0Gi       3.3Gi       241Mi       2.7Gi       5.5Gi
-Swap:          4.0Gi          0B       4.0Gi
+Mem:           7.5Gi       4.3Gi       538Mi       811Mi       3.5Gi       3.2Gi
+Swap:          4.0Gi       1.5Mi       4.0Gi
 
 Disk Usage:
 total           123G   69G   48G  59% -
+
 System Uptime:
-up 19 minutes
+up 4 hours, 18 minutes
 
 Top 5 Memory Processes:
     PID COMMAND         %MEM
    6149 anydesk          9.1
-   5912 gnome-shell      4.2
-   2312 mongod           2.3
-  10283 nautilus         2.1
-   2310 dockerd          1.1
+  11315 firefox          7.1
+  12459 Isolated Web Co  5.7
+  18747 Isolated Web Co  4.7
+  21862 chrome           4.5
 
