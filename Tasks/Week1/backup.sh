@@ -1,10 +1,8 @@
 #!/bin/bash
-SOURCE="/home/usman/Desktop/DevOps/Tasks"
-DEST="/home/usman/Desktop/DevOps/AWS"
-DATE=$(date +%Y-%m-%d)
+SOURCE="/home/usman/Desktop/DevOps-Intern/Tasks"
+DEST="/home/usman/Desktop/DevOps-Intern/AWS"
 
-mkdir -p $DEST
-tar -czf $DEST/backup-$DATE.tar.gz $SOURCE
+tar -czf $DEST/backup.tar.gz $SOURCE
 
-echo "Backup created successfully at $DEST/backup-$DATE.tar.gz"
+echo "Backup created successfully at $DEST/backup.tar.gz"
 
