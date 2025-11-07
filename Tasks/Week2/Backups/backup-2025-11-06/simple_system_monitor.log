@@ -1,0 +1,25 @@
+====================
+System Report: 2025-11-06 18:19:32
+====================
+CPU Load:
+ 0.31, 0.38, 0.27
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       5.5Gi       204Mi       1.6Gi       3.2Gi       2.0Gi
+Swap:          4.0Gi       1.3Gi       2.7Gi
+
+Disk Usage:
+total           123G   69G   48G  59% -
+
+System Uptime:
+up 5 hours, 6 minutes
+
+Top 5 Memory Processes:
+    PID COMMAND         %MEM
+   7713 Isolated Web Co  8.5
+   6934 Isolated Web Co  8.3
+   6383 firefox          7.3
+   6898 Isolated Web Co  7.1
+   8072 Isolated Web Co  6.6
+
